@@ -3,3 +3,96 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#nav {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: rgba(41,64,81,0.75);
+	line-height: 30px;
+}
+
+#nav ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	float: left;
+	margin-right: 60px;
+}
+
+#nav li.lastItem {
+	margin-right: 0;
+}
+
+#logo {
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	position: fixed;
+	z-index: 10;
+}
+
+#logoimg {
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#login {
+	width: 474px;
+	height: 500px;
+	display: block;
+	margin: auto;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color:rgba(230,235,239,1.00);
+	text-align: center;
+}
+
+input[type=text], input[type=password] {
+	width: 474px;
+	height: 50px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	background-color: rgba(230,235,239,0.75);
+	color:rgba(21,43,56,1.00);
+}
+
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-image: url(../images/bkg.jpg);
+	background-size: auto;
+	color: white;
+	font-size: 16px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
